@@ -1,0 +1,41 @@
+{
+  "name": "DroneFlight",
+  "version": "0.1.1",
+  "description": "Extensible remote-control environment for the AR Drone.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markven/DF_MV.git"
+  },
+  "keywords": [
+    "drone",
+    "ardrone",
+    "nodecopter",
+    "parrot",
+    "cockpit",
+    "browser",
+    "artificial horizon"
+  ],
+  "dependencies": {
+    "ar-drone": "0.3.1",
+    "buffered-reader": "~1.0.1",
+    "dateformat": "~1.0.6-1.2.3",
+    "dronestream": "1.1.1",
+    "ejs": "~0.8.3",
+    "express": "3.0.x",
+    "line-reader": "~0.2.3",
+    "opencv": "^3.0.0",
+    "socket.io": "~0.9.4",
+    "node-pid-controller": "0.0.x",
+    "async": "0.2.9",
+    "canvas": ">=1.1.0"
+  },
+  "author": "Mark Ven <ven.evanscence@gmail.com>",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "license": "MIT"
+}
